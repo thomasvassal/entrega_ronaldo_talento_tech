@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+/* HEADER */
+
+header{
+    background:#131518;
+    color:white;
+    padding:20px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:40px;
+}
+
+/* DESCRIPCION */
+
+.descripcion{
+    text-align:center;
+    padding:40px;
+}
+
+.descripcion h2{
+    margin-bottom:15px;
+}
+
+/* IMAGENES */
+
+.imagenes{
+    text-align:center;
+    padding:40px;
+}
+
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.galeria img{
+    width:300px;
+    border-radius:10px;
+    border-color: #35373a;
+}
+
+/* FORMULARIO */
+
+.reservas{
+    padding:40px;
+    text-align:center;
+}
+
+form{
+    max-width:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    padding:10px;
+    margin:8px 0;
+    border-radius:5px;
+    border:1px solid #382e2e;
+}
+
+button{
+    margin-top:10px;
+    padding:12px;
+    border:none;
+    background:#404247;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+/* FOOTER */
+
+footer{
+    background:#35373a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
